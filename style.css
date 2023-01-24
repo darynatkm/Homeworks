@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.block {
+    min-height: 100px;
+}
+.blueBlock {
+    background-color: #b5dce9;
+    height: 45%;
+}
+
+.greenBlock {
+    background-color: #2ab9b2;
+    height: 15%;
+}
+
+.pinkBlock {
+    background-color: #ffbdc6;
+    height: 53%;
+    position: relative;
+
+}
+
+.orangeBlock {
+    background-color: #ffa983;
+    height: 83%;
+}
+
+.container-fluid {
+    background-color: lightgrey;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+} 
+
+.leftPart {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightPart {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.fa-equals{
+    height: 2%;
+    align-self: center;
+}
+.fa-caret-right {
+    display: none;
+}
+
+.fa-caret-right, .fa-caret-left {
+    font-size: 25px;
+    align-self: center;
+}
